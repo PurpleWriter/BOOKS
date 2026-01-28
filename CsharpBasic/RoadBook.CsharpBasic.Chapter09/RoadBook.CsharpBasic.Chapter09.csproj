@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>RoadBook.CsharpBasic.Chapter09</RootNamespace>
     <AssemblyName>RoadBook.CsharpBasic.Chapter09</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -74,6 +75,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="User.designer.cs" />
+    <Compile Include="User1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>User.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Works\Exam001.cs" />
     <Compile Include="Works\Exam002.cs" />
     <Compile Include="Works\Exam003.cs" />

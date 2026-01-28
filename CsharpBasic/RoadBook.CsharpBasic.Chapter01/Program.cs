@@ -9,6 +9,7 @@
 
             System.Console.WriteLine("계속 하시려면 아무 키나 누르세요.");
             System.Console.ReadKey();
+            System.Console.WriteLine("Checked");
         }
     }
 }
